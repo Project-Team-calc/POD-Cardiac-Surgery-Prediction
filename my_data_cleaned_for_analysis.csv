@@ -1,0 +1,309 @@
+id,hospital,age_years,gender,edu_years,smoking_history,alcohol_history,bmi,surgery,surgery_category,valve_prosthesis_type,hypertension,diabetes,stroke_history,lvef,cerebral_stenosis,cpb_time_min,surgery_duration_min,acclamp_time_min,mvt_hours_total,mvt_first_24h,delirium_duration_hours,propofol_mg,postop_creatinine,icu_los_days,mmse_preop,mmse_postop,camicu_day1,camicu_day2,camicu_day3,delirium_occurred,surgery_category_grouped
+1,1,69,No,2,No,No,25,LVOT Deobstruction + AVR,Other,No Replacement,No,No,No,59,No,76,210,42,8.5,8.5,0,50,96.4,3,25,23,No,No,No,No,Other Procedures
+2,1,58,No,0,No,No,26.17,MVR + TVR + AVR,Multi-Valve,No Replacement,No,No,Yes,53,No,177,276,143,13,13,0,50,70.4,4,21,18,No,No,No,No,Complex/Combined
+3,1,61,Yes,12,Yes,Yes,23.03,AVR,Isolated Single-Valve,No Replacement,No,No,No,57,No,91,165,70,12,12,0,100,66.4,2,28,26,No,No,No,No,Isolated Single-Valve
+4,1,50,Yes,9,No,Yes,23.38,MVr,Isolated Single-Valve,No Replacement,No,No,No,64,No,92,145,57,39.5,24,0,2450,63.3,3,28,29,No,No,No,No,Isolated Single-Valve
+5,1,61,Yes,5,No,Yes,24.22,AVR,Isolated Single-Valve,No Replacement,Yes,No,No,55,No,101,190,62,15,15,0,50,97.3,2,22,27,No,No,No,No,Isolated Single-Valve
+6,1,55,Yes,8,Yes,Yes,25.86,CABG + MVr + TVr,Multi-Valve,No Replacement,Yes,No,No,60,No,141,251,103,9,9,0,100,65.6,2,27,29,No,No,No,No,Complex/Combined
+7,1,71,No,0,No,No,20.89,CABG + ext. root + AVR + MVR + TVr + LAA ligation,Multi-Valve,No Replacement,No,No,No,42,No,232,410,185,45,24,117,1850,54.9,7,28,11,Yes,Yes,Yes,Yes,Complex/Combined
+8,1,39,No,8,Yes,Yes,NA,RVOT Deobstruction,Other,No Replacement,Yes,No,No,62,No,88,185,34,4,4,0,50,53.4,1,28,28,No,No,No,No,Other Procedures
+10,1,57,Yes,9,No,No,26.3,CABG × 4+,Isolated CABG,No Replacement,No,Yes,No,43,No,74,231,NA,17.5,17.5,0,100,65.8,2,30,30,No,No,No,No,Isolated CABG
+11,1,48,No,15,No,No,24.84,Avr,Isolated Single-Valve,No Replacement,Yes,No,No,57,No,139,280,100,15.5,15.5,0,50,65.8,3,28,28,No,No,No,No,Isolated Single-Valve
+12,1,56,No,5,No,No,22.89,M-AVR,Isolated Single-Valve,Mechanical,Yes,No,No,60,Yes,82,165,67,43.5,24,81,1210,215.6,7,29,22,Yes,Yes,Yes,Yes,Isolated Single-Valve
+13,1,68,Yes,0,No,No,25.59,Wheat Procedure,Isolated Aortic,No Replacement,No,No,No,60,Yes,121,325,81,9,9,0,50,87.3,1.5,29,25,No,No,No,No,Other Procedures
+15,1,56,No,3,No,No,21.23,M-MVR,Isolated Single-Valve,Mechanical,No,No,No,43,Yes,136,230,86,12.5,12.5,0,40,64.3,5,22,18,No,No,No,No,Isolated Single-Valve
+17,1,59,Yes,12,Yes,Yes,25.06,M-MVR,Isolated Single-Valve,Mechanical,No,No,No,56,Yes,143,366,119,18,18,0,90,60.9,2,29,24,No,No,No,No,Isolated Single-Valve
+18,1,71,No,0,No,No,20.89,B-AVR,Isolated Single-Valve,Bioprosthetic,No,No,No,42,No,232,410,185,21,21,98,1350,54.9,7,26,12,Yes,Yes,Yes,Yes,Isolated Single-Valve
+19,1,53,Yes,8,Yes,No,27.55,MVr,Isolated Single-Valve,No Replacement,Yes,No,No,64,No,85,190,48,14,14,0,300,117,4,28,26,No,No,No,No,Isolated Single-Valve
+20,1,64,Yes,12,Yes,Yes,22.31,Bentall  Procedure + CABGx2+,CABG + Valve,No Replacement,Yes,No,No,60,Yes,201,370,145,16,16,0,50,91.6,3,28,27,No,No,No,No,Complex/Combined
+21,1,63,Yes,9,No,Yes,27.41,B-AVR,CABG + Valve,Bioprosthetic,Yes,No,No,38,Yes,88,185,66,7,7,0,330,76.9,2,26,25,No,No,No,No,Complex/Combined
+23,1,35,Yes,15,No,Yes,32.32,Wheat Procedure,Isolated Aortic,No Replacement,Yes,No,No,56,No,123,300,88,24,24,0,100,74.8,3,27,24,No,No,No,No,Other Procedures
+24,1,66,Yes,5,Yes,Yes,26.37,B-AVR,Isolated Single-Valve,Bioprosthetic,No,No,No,63,Yes,155,193,126,14,14,91,950,99.8,6,25,23,No,Yes,Yes,Yes,Isolated Single-Valve
+26,1,36,No,15,No,No,21.64,M-MVR,Isolated Single-Valve,Mechanical,No,No,No,60,No,214,320,104,12.5,12.5,0,50,54,3,30,30,No,No,No,No,Isolated Single-Valve
+27,1,46,Yes,9,No,No,18.87,ASD patch closure,Congenital,No Replacement,No,No,No,58.7,No,110,85,76,19,19,0,150,55.6,4,27,24,No,No,No,No,Other Procedures
+28,1,38,No,15,No,Yes,20.76,ASD patch closure,Congenital,No Replacement,No,No,No,60,No,43,119,21,6,6,0,50,55.7,2,28,28,No,No,No,No,Other Procedures
+29,1,19,No,13,Yes,Yes,17.31,M-AVR,Isolated Single-Valve,Mechanical,No,No,No,65,No,93,150,40,18,18,0,300,40.3,3,28,27,No,No,No,No,Isolated Single-Valve
+30,1,65,Yes,0,No,Yes,29.41,CABG × 4+,Isolated CABG,No Replacement,Yes,Yes,Yes,60,Yes,127,300,NA,84.5,24,0,300,106.6,5.5,21,16,No,No,No,No,Isolated CABG
+31,1,26,Yes,16,No,No,27.68,ASD patch closure,Congenital,No Replacement,No,No,No,63,No,52,150,12,2,2,0,213,73.1,1,29,28,No,No,No,No,Other Procedures
+32,1,34,Yes,8,Yes,No,24.2,MVr,Isolated Single-Valve,No Replacement,Yes,No,No,68,No,110,180,109,5,5,0,50,80.4,2,30,28,No,No,No,No,Isolated Single-Valve
+33,1,58,Yes,8,No,No,21.5,M-MVR,Isolated Single-Valve,Mechanical,No,Yes,No,63,No,44,220,99,18.5,18.5,0,100,68.6,2,28,27,No,No,No,No,Isolated Single-Valve
+35,1,54,No,8,No,No,21,M-MVR,Isolated Single-Valve,Mechanical,Yes,No,No,57,No,148,185,93,14,14,0,100,74.4,2,29,25,No,No,No,No,Isolated Single-Valve
+36,1,68,No,0,No,No,29.5,B-MVR,Isolated Single-Valve,Bioprosthetic,Yes,No,No,60,Yes,128,245,88,8,8,54,750,73.2,4,29,19,No,Yes,Yes,Yes,Isolated Single-Valve
+37,1,37,No,9,No,No,21.5,ASD patch closure,Congenital,No Replacement,No,No,No,63,No,63,215,27,4,4,0,257,41.3,1.5,30,29,No,No,No,No,Other Procedures
+38,1,57,Yes,7,Yes,Yes,24.8,B-AVR,Isolated Single-Valve,Bioprosthetic,Yes,Yes,No,55,Yes,96,232,76,18.5,18.5,0,150,66.9,3,30,27,No,No,No,No,Isolated Single-Valve
+39,1,53,Yes,8,Yes,Yes,29.4,MVr,Isolated Single-Valve,No Replacement,Yes,No,No,60,Yes,97,176,37,47,24,22,2150,95.8,5.5,28,20,Yes,No,No,Yes,Isolated Single-Valve
+40,1,34,No,6,No,No,15.8,M-AVR,Isolated Single-Valve,Mechanical,No,No,No,65,Yes,95,225,76,18,18,0,90,62.2,2,28,27,No,No,No,No,Isolated Single-Valve
+41,1,69,Yes,4,Yes,Yes,22.7,B-MVR,Isolated Single-Valve,Bioprosthetic,No,No,No,60,Yes,155,220,90,14,14,0,414,113.1,2.5,23,21,No,No,No,No,Isolated Single-Valve
+42,1,54,No,8,No,No,26.3,MVr,Isolated Single-Valve,No Replacement,No,No,No,55,Yes,149,320,103,10,10,60,750,70.1,4.5,28,17,No,Yes,Yes,Yes,Isolated Single-Valve
+43,1,57,Yes,7,Yes,Yes,28,CABG × 4+,Isolated CABG,No Replacement,Yes,No,No,52,Yes,141,259,88,16,16,52,1000,64.8,3,28,19,Yes,Yes,No,Yes,Isolated CABG
+44,1,76,Yes,9,Yes,Yes,15.9,B-MVR,Isolated Single-Valve,Bioprosthetic,No,No,Yes,58,Yes,149,480,103,59.5,24,173,1020,57.2,9.5,27,16,Yes,Yes,Yes,Yes,Isolated Single-Valve
+45,1,58,Yes,11,Yes,Yes,25.1,MVr,Isolated Single-Valve,No Replacement,No,No,No,60,No,149,240,45,15.5,15.5,0,100,67.7,2,27,26,No,No,No,No,Isolated Single-Valve
+46,1,34,Yes,10,Yes,No,28.4,ASD patch closure,Congenital,No Replacement,Yes,No,No,62,No,31,45,15,6,6,0,143,82.3,1,30,28,No,No,No,No,Other Procedures
+47,1,68,Yes,0,No,Yes,22.6,M-AVR,Isolated Single-Valve,Mechanical,No,No,No,60,Yes,82,175,62,18,18,0,50,104.1,1.5,19,19,No,No,No,No,Isolated Single-Valve
+48,1,35,Yes,6,Yes,Yes,29.8,MVr,Isolated Single-Valve,No Replacement,Yes,No,No,66,No,155,202,102,10,10,0,150,123.3,2,29,27,No,No,No,No,Isolated Single-Valve
+49,1,41,Yes,12,Yes,Yes,22.5,M-AVR,Isolated Single-Valve,Mechanical,No,No,No,50,No,132,235,108,7,7,0,100,54.6,1,26,24,No,No,No,No,Isolated Single-Valve
+50,1,66,No,9,No,No,24.8,B-AVR,Isolated Single-Valve,Bioprosthetic,No,No,No,55,Yes,81,176,68,11,11,0,312,76.9,1.5,25,23,No,No,No,No,Isolated Single-Valve
+51,1,50,No,11,No,No,22.3,M-MVR,Isolated Single-Valve,Mechanical,No,No,No,50,No,146,285,108,4.5,4.5,0,411,68,1.5,28,26,No,No,No,No,Isolated Single-Valve
+52,1,37,Yes,9,Yes,Yes,28.1,Ebstein’s Anomaly Repair (George Technique),Congenital,No Replacement,No,No,No,50,No,123,240,76,18,18,0,100,87.7,2,29,29,No,No,No,No,Other Procedures
+53,1,68,Yes,9,Yes,Yes,25.7,B-MVR,Isolated Single-Valve,Bioprosthetic,No,No,No,57,Yes,328,450,175,161,24,93,710,104.5,8.5,26,17,No,Yes,Yes,Yes,Isolated Single-Valve
+54,1,55,Yes,5,No,No,21.5,AVR + Asc. Ao Replacement,Isolated Aortic,No Replacement,No,No,No,61,Yes,120,420,97,11.5,11.5,0,50,50.7,2,28,27,No,No,No,No,Other Procedures
+55,1,40,Yes,8,Yes,No,30.1,ASD closure (tissue graft),Congenital,No Replacement,No,No,No,63,No,45,120,19,5,5,0,50,73.2,1,26,25,No,No,No,No,Other Procedures
+58,1,64,No,6,No,No,24.3,B-MVR+B-AVR,Multi-Valve,Bioprosthetic,No,No,No,50,Yes,184,320,97,20.5,20.4,0,130,96.1,4,27,22,No,No,No,No,Complex/Combined
+59,1,63,No,0,No,No,26.7,ASD patch closure,Congenital,No Replacement,Yes,Yes,No,55,No,146,280,101,17.5,17.5,0,446,67.6,4,19,17,No,No,No,No,Other Procedures
+60,1,57,No,8,No,No,24.6,B-AVR,Isolated Single-Valve,Bioprosthetic,Yes,No,No,60,No,91,195,74,5,5,0,50,49.9,3.5,29,28,No,No,No,No,Isolated Single-Valve
+62,1,60,Yes,8,Yes,Yes,24.3,B-AVR,Isolated Single-Valve,Bioprosthetic,Yes,No,No,44,Yes,112,180,86,11,11,0,40,121,3,27,22,No,No,No,No,Isolated Single-Valve
+63,1,54,No,8,No,No,21.1,ASD patch closure,Congenital,No Replacement,No,No,No,60,Yes,95,200,70,7,7,0,50,50.6,3,26,23,No,No,No,No,Other Procedures
+64,1,69,Yes,9,Yes,No,25.4,B-AVR+CABG×3+,CABG + Valve,Bioprosthetic,Yes,No,Yes,59,Yes,111,222,87,14,14,0,40,109,5,28,25,No,No,No,No,Complex/Combined
+65,1,53,No,8,No,No,23,MVr,Isolated Single-Valve,No Replacement,No,No,No,66,Yes,67,140,43,14,14,0,50,79.1,4,29,26,No,No,No,No,Isolated Single-Valve
+66,1,57,Yes,6,No,Yes,22.8,M-AVR,Isolated Single-Valve,Mechanical,No,No,No,60,Yes,66,150,50,11,11,0,50,76,1,28,25,No,No,No,No,Isolated Single-Valve
+67,1,69,Yes,3,Yes,Yes,21.2,MVr,Isolated Single-Valve,No Replacement,No,No,No,62,Yes,183,255,124,56.5,24,43,1050,75.6,7.5,25,14,Yes,Yes,No,Yes,Isolated Single-Valve
+68,1,65,No,3,No,No,32.4,MVr,Isolated Single-Valve,No Replacement,Yes,No,No,49,Yes,109,210,81,12.5,12.5,0,50,96,2,25,22,No,No,No,No,Isolated Single-Valve
+69,1,68,Yes,9,No,Yes,32,B-AVR,Isolated Single-Valve,Bioprosthetic,Yes,No,No,50,Yes,79,205,65,5.5,5.5,0,50,66.3,2,26,25,No,No,No,No,Isolated Single-Valve
+70,1,57,Yes,11,Yes,Yes,24.2,MVr,Isolated Single-Valve,No Replacement,No,No,No,42,Yes,108,205,62,15,15,0,150,81.2,1.5,28,27,No,No,No,No,Isolated Single-Valve
+71,1,66,No,0,No,No,22.6,TM-MVR,Isolated Single-Valve,Mechanical,No,No,No,60,Yes,98,198,67,5,5,0,334.66,85.9,2,21,18,No,No,No,No,Isolated Single-Valve
+72,1,51,Yes,8,Yes,Yes,30.5,Wheat Procedure,Isolated Aortic,No Replacement,Yes,No,No,58,No,108,245,84,10.5,10.5,0,550,82.1,4,28,26,No,No,No,No,Other Procedures
+73,1,38,Yes,9,Yes,Yes,18.1,ASD closure (tissue graft),Congenital,No Replacement,No,No,No,60,No,146,197,82,24,24,45,2050,69.4,8,30,21,Yes,Yes,No,Yes,Other Procedures
+74,1,65,Yes,8,No,No,24.9,CABG×3+,Isolated CABG,No Replacement,No,Yes,No,58,Yes,165,480,107,17.5,17.5,0,50,97.7,2,26,25,No,No,No,No,Isolated CABG
+75,1,48,Yes,11,Yes,Yes,27.8,CABG×1+,Isolated CABG,No Replacement,No,No,No,63,No,70,180,52,4,4,0,50,70.4,1.5,29,26,No,No,No,No,Isolated CABG
+77,1,43,No,6,No,No,19.5,M-MVR,Isolated Single-Valve,Mechanical,No,No,No,62,No,84,198,54,8,8,0,50,121.2,4,28,26,No,No,No,No,Isolated Single-Valve
+78,1,54,Yes,5,Yes,Yes,22.6,VSD repair,Congenital,No Replacement,Yes,No,No,43,Yes,81,135,59,8,8,0,100,72.5,1,21,20,No,No,No,No,Other Procedures
+79,1,40,Yes,6,Yes,Yes,27,M-MVR,Isolated Single-Valve,Mechanical,No,No,No,60,No,112,190,85,5,5,0,50,92.3,3,29,29,No,No,No,No,Isolated Single-Valve
+81,1,70,Yes,9,No,No,28.1,B-AVR,Isolated Single-Valve,Bioprosthetic,Yes,No,No,59,Yes,299,430,173,11,11,0,50,67.9,3.5,28,27,No,No,No,No,Isolated Single-Valve
+82,1,67,Yes,7,Yes,Yes,25.9,B-MVR,Isolated Single-Valve,Bioprosthetic,No,No,Yes,54,Yes,128,245,98,10.5,10.5,0,50,90,1.5,25,23,No,No,No,No,Isolated Single-Valve
+84,1,55,No,5,No,No,18.3,B-AVR,Isolated Single-Valve,Bioprosthetic,Yes,No,No,65,Yes,100,300,75,40,24,0,50,98.1,3,25,21,No,No,No,No,Isolated Single-Valve
+85,1,76,Yes,6,Yes,Yes,22.3,MVr,Isolated Single-Valve,No Replacement,No,No,No,60,Yes,140,255,99,19.5,19.5,0,100,95.2,3,24,25,No,No,No,No,Isolated Single-Valve
+86,1,60,No,12,No,No,23.3,Wheat Procedure,Isolated Aortic,No Replacement,No,No,No,58,No,155,300,127,16.5,16.5,0,50,121,3.5,25,24,No,No,No,No,Other Procedures
+88,1,66,Yes,10,Yes,Yes,23,B-AVR,Isolated Single-Valve,Bioprosthetic,No,No,Yes,60,No,335,444,130,110,24,125,700,181.9,7.5,28,13,Yes,Yes,Yes,Yes,Isolated Single-Valve
+89,1,71,Yes,3,Yes,Yes,23.5,MVr,Isolated Single-Valve,No Replacement,Yes,No,Yes,65,Yes,222,355,143,42.5,24,0,750,112.4,7,24,25,No,No,No,No,Isolated Single-Valve
+90,1,71,No,0,No,No,19.8,B-AVR,Isolated Single-Valve,Bioprosthetic,Yes,Yes,Yes,38,No,103,195,70,19,19,0,150,72.5,8,23,17,No,No,No,No,Isolated Single-Valve
+91,1,56,Yes,5,No,Yes,24.8,B-AVR,Isolated Single-Valve,Bioprosthetic,Yes,No,Yes,57,Yes,73,155,57,10,10,0,274.84,90,2,28,29,No,No,No,No,Isolated Single-Valve
+92,1,73,Yes,4,Yes,Yes,22.9,B-AVR,Isolated Single-Valve,Bioprosthetic,No,No,No,55,Yes,100,206,80,11.5,11.5,0,50,111.8,2,22,19,No,No,No,No,Isolated Single-Valve
+93,1,64,No,5,No,No,21.1,B-MVR,Isolated Single-Valve,Bioprosthetic,No,Yes,No,60,Yes,88,165,61,15,15,0,100,43.8,2,25,21,No,No,No,No,Isolated Single-Valve
+94,1,27,Yes,9,No,Yes,17.4,Cardiotomy (Surgical incision into the heart),Other,No Replacement,No,No,Yes,59,Yes,65,130,36,11,11,0,50,62.3,2.5,28,18,No,No,No,No,Other Procedures
+95,1,68,Yes,8,No,No,20.8,MVr,Isolated Single-Valve,No Replacement,No,No,No,60,Yes,121,180,NA,12,12,45,900,68.6,5.5,27,17,Yes,Yes,No,Yes,Isolated Single-Valve
+96,1,55,No,4,No,No,19.2,ASD closure (tissue graft),Congenital,No Replacement,No,No,No,62,No,65,211,26,10,10,0,50,56,1,23,25,No,No,No,No,Other Procedures
+97,1,66,Yes,10,No,No,22.5,ASD patch closure,Congenital,No Replacement,No,No,Yes,63,Yes,70,150,555,21,21,0,90,103.6,2.5,27,25,No,No,No,No,Other Procedures
+98,1,46,Yes,8,Yes,Yes,33.4,MVr,Isolated Single-Valve,No Replacement,No,No,No,64,No,108,205,80,10,10,0,100,87.1,1,26,25,No,No,No,No,Isolated Single-Valve
+99,1,53,No,8,No,No,32.9,Partial Aortic Arch Replacement with Prosthetic Graft,Isolated Aortic,No Replacement,Yes,No,No,62,No,213,380,NA,59,24,0,470,58.8,6,26,24,No,No,No,No,Other Procedures
+100,1,60,No,5,No,No,24.8,Partial Aortic Arch Replacement with Prosthetic Graft,Isolated Aortic,No Replacement,No,No,No,64,Yes,94,215,70,7,7,0,50,65.5,1,25,22,No,No,No,No,Other Procedures
+101,1,59,Yes,6,Yes,No,18.7,B-MVR,Isolated Single-Valve,Bioprosthetic,No,No,No,58,Yes,128,195,89,9.5,9.5,0,50,91.4,3.5,28,22,No,No,No,No,Isolated Single-Valve
+102,1,51,Yes,3,No,Yes,23,M-AVR,Isolated Single-Valve,Mechanical,Yes,No,No,60,No,97,190,82,6.5,6.5,0,50,96.1,2,24,24,No,No,No,No,Isolated Single-Valve
+104,1,42,No,10,No,No,21.7,ASD closure (tissue graft),Congenital,No Replacement,No,No,No,60,No,54,140,27,15,15,0,747,55.5,9,28,27,No,No,No,No,Other Procedures
+105,1,65,Yes,8,Yes,Yes,21,M-AVR,Isolated Single-Valve,Mechanical,No,No,No,60,Yes,283,400,160,23.5,23.5,0,150,71.2,3.5,26,24,No,No,No,No,Isolated Single-Valve
+106,1,71,No,0,No,No,26.6,B-MVR,Isolated Single-Valve,Bioprosthetic,Yes,Yes,Yes,64,Yes,164,180,NA,34,24,0,1650,139.2,6.5,19,15,No,Yes,Yes,Yes,Isolated Single-Valve
+107,1,34,No,1,No,No,16.5,ASD patch closure,Congenital,No Replacement,No,No,Yes,60,Yes,98,199,56,17.5,17.5,0,30,79.5,1.5,24,23,No,No,No,No,Other Procedures
+108,1,40,No,6,No,No,20.3,VSD patch closure,Congenital,No Replacement,No,No,No,58,No,87,150,44,3,3,0,243.42,44.2,2.5,28,25,No,No,No,No,Other Procedures
+109,1,61,No,0,No,No,21,M-AVR,Isolated Single-Valve,Mechanical,No,No,No,61,Yes,83,170,64,7.5,7.5,0,50,43,3,26,25,No,No,No,No,Isolated Single-Valve
+110,1,62,Yes,9,Yes,Yes,24,B-AVR,Isolated Single-Valve,Bioprosthetic,Yes,No,No,62,Yes,58,170,NA,5.5,5.5,0,50,61.2,2,27,28,No,No,No,No,Isolated Single-Valve
+111,1,68,No,5,No,No,21.8,ASD closure (tissue graft),Congenital,No Replacement,Yes,No,No,60,Yes,53,165,56,19,19,0,50,62.4,2,23,24,No,No,No,No,Other Procedures
+112,1,68,Yes,6,Yes,Yes,25.5,CABG×4+,Isolated CABG,No Replacement,Yes,No,No,60,Yes,150,330,109,20,20,0,100,81.3,3,25,22,No,No,No,No,Isolated CABG
+113,1,62,Yes,7,Yes,Yes,27.7,B-AVR,Isolated Single-Valve,Bioprosthetic,No,No,No,45,No,146,270,100,16.5,16.5,0,100,93.3,1.5,26,24,No,No,No,No,Isolated Single-Valve
+114,1,67,Yes,9.5,No,Yes,28.7,B-AVR,Isolated Single-Valve,Bioprosthetic,Yes,No,No,58,No,77,154,65,10.5,10.5,0,650,95.7,1.5,27,25,No,No,No,No,Isolated Single-Valve
+117,1,62,Yes,7,Yes,Yes,20.9,MVr,Isolated Single-Valve,No Replacement,No,No,No,55,Yes,148,380,73,43.5,24,0,150,134.8,5,26,20,No,No,No,No,Isolated Single-Valve
+118,1,59,Yes,8,No,Yes,28.7,MVr,Isolated Single-Valve,No Replacement,Yes,No,No,62,No,77,180,NA,11,11,0,40,60.6,2,26,23,No,No,No,No,Isolated Single-Valve
+119,1,57,Yes,4,Yes,Yes,26.4,Sun’s Procedure,Isolated Aortic,No Replacement,No,No,No,62,No,154,320,NA,12,12,0,650,64.8,2.5,29,24,No,No,No,No,Other Procedures
+120,1,61,No,7,No,No,22.5,MVr,Isolated Single-Valve,No Replacement,Yes,No,No,69,No,100,195,64,15,15,0,50,80.4,1.5,27,27,No,No,No,No,Isolated Single-Valve
+122,1,35,Yes,17,No,Yes,28.4,Thoracoscopic Mitral Valve Repair,Isolated Single-Valve,No Replacement,Yes,No,Yes,65,No,167,240,84,4,4,0,50,114.5,1,29,27,No,No,No,No,Isolated Single-Valve
+123,1,36,No,11,No,No,31.6,Cardiotomy (Surgical incision into the heart),Other,No Replacement,No,No,No,60,No,21,450,NA,9,9,0,50,44.4,2.5,28,27,No,No,No,No,Other Procedures
+124,1,60,Yes,5,No,Yes,20.8,M-AVR,Isolated Single-Valve,Mechanical,No,No,No,34,Yes,171,261,131,18.5,18.5,0,100,117.4,4,22,20,No,No,No,No,Isolated Single-Valve
+125,1,54,Yes,7,Yes,Yes,31.9,Sun’s Procedure,Isolated Aortic,No Replacement,Yes,Yes,No,61,Yes,190,355,105,87,24,77,505,113.6,8.5,25,13,Yes,Yes,Yes,Yes,Other Procedures
+128,1,71,No,6,No,No,31.6,MVr,Isolated Single-Valve,No Replacement,Yes,No,No,57,Yes,75,225,NA,10,10,0,50,54.5,2,30,29,No,No,No,No,Isolated Single-Valve
+129,1,18,No,12,No,No,21.1,Cardiotomy (Surgical incision into the heart),Other,No Replacement,No,No,No,57,No,144,240,112,13,13,0,50,68.7,2,29,29,No,No,No,No,Other Procedures
+130,1,58,Yes,4,Yes,Yes,21.5,ASD patch closure,Congenital,No Replacement,No,No,No,55,No,120,180,74,18,18,0,100,52.5,9,22,22,No,No,No,No,Other Procedures
+131,1,56,Yes,8,Yes,Yes,22.5,B-AVR,Isolated Single-Valve,Bioprosthetic,Yes,No,No,58,No,87,175,47,5,5,0,50,92.2,4,25,24,No,No,No,No,Isolated Single-Valve
+132,1,59,No,0,No,No,26.8,M-MVR + B-PVR,Multi-Valve,Mechanical,No,No,No,58,Yes,143,300,96,38,24,54,750,116.6,6,20,17,No,Yes,Yes,Yes,Complex/Combined
+133,1,61,Yes,9,Yes,Yes,22.2,Thoracoscopic Bioprosthetic Valve Replacement,Isolated Single-Valve,Bioprosthetic,No,No,No,56,No,182,220,77,10,10,0,40,70.9,2.5,26,26,No,No,No,No,Isolated Single-Valve
+134,1,66,Yes,11,No,Yes,24.2,Bentall Procedure,Isolated Aortic,No Replacement,Yes,No,No,57,No,285,480,185,40.5,24,44,1200,62.7,6.5,25,13,Yes,Yes,No,Yes,Other Procedures
+135,1,33,Yes,10,No,Yes,20.9,VSD patch closure+K156,Congenital,No Replacement,No,No,No,63,No,117,220,50,77,24,0,420,73.3,7,29,24,No,No,No,No,Other Procedures
+136,1,62,No,7,No,No,18.4,MVr,Isolated Single-Valve,No Replacement,No,No,No,42,Yes,90,160,50,14,14,0,100,79.9,5,26,20,No,No,No,No,Isolated Single-Valve
+137,1,76,No,6,No,No,31.6,B-MVR,Isolated Single-Valve,Bioprosthetic,No,No,No,60,Yes,102,198,48,18.5,18.5,0,90,42.9,3,23,23,No,No,No,No,Isolated Single-Valve
+138,1,45,Yes,6,Yes,Yes,18.9,B-AVR,Isolated Single-Valve,Bioprosthetic,No,No,No,62,No,215,273,142,131,24,0,868,140.3,7.5,27,26,No,No,No,No,Isolated Single-Valve
+140,1,34,Yes,11,No,No,31.6,B-TVR,Isolated Single-Valve,Bioprosthetic,No,No,No,60,No,116,121,54,16.5,16.5,0,1300,86.1,2,30,30,No,No,No,No,Isolated Single-Valve
+141,1,53,Yes,4,Yes,Yes,25.7,AVR + Asc. Ao Replacement,Isolated Aortic,No Replacement,Yes,No,No,61,No,144,270,99,19,19,0,600,138.8,5,27,26,No,No,No,No,Other Procedures
+142,1,56,Yes,5,Yes,Yes,28.4,M-AVR,Isolated Single-Valve,Mechanical,No,No,No,40,No,75,200,53,22.5,22.5,0,1150,116.5,3,27,25,No,No,No,No,Isolated Single-Valve
+143,1,62,No,0,No,Yes,25.8,B-AVR,Isolated Single-Valve,Bioprosthetic,No,Yes,No,52,Yes,99,180,84,19,19,0,50,62.7,2,20,20,No,No,No,No,Isolated Single-Valve
+145,1,36,Yes,11,Yes,Yes,27,M-MVR,Isolated Single-Valve,Mechanical,No,No,No,45,No,142,250,91,21,21,0,100,77.9,2,28,29,No,No,No,No,Isolated Single-Valve
+146,1,64,Yes,8,Yes,Yes,21.5,ASD closure (tissue graft),Congenital,No Replacement,No,No,No,60,Yes,85,176,43,50.5,24,40,1700,66.9,4,25,15,Yes,Yes,No,Yes,Other Procedures
+147,1,56,No,6,No,No,32.7,MVr,Isolated Single-Valve,No Replacement,Yes,No,No,60,No,78,185,53,14.5,14.5,0,750,83.6,2,28,26,No,No,No,No,Isolated Single-Valve
+148,1,74,Yes,10,No,Yes,21.5,B-MVR,Isolated Single-Valve,Bioprosthetic,No,No,Yes,62,Yes,219,365,127,55,24,98,1200,77.3,8,25,17,Yes,Yes,Yes,Yes,Isolated Single-Valve
+149,1,48,Yes,5,Yes,Yes,26.3,Wheat Procedure,Isolated Aortic,No Replacement,No,No,Yes,56,Yes,194,439,158,8.5,8.5,0,2850,85.6,0.5,26,25,No,No,No,No,Other Procedures
+150,1,59,Yes,9,Yes,Yes,18.7,M-AVR,Isolated Single-Valve,Mechanical,Yes,No,Yes,56,No,100,184,65,9.5,9.5,0,50,62.3,1.5,29,28,No,No,No,No,Isolated Single-Valve
+151,1,76,Yes,4,Yes,Yes,26.1,Atrial Lesion Excision+K193,Other,No Replacement,No,No,No,60,Yes,56,141,30,6,6,0,50,66.3,1,26,25,No,No,No,No,Other Procedures
+152,1,74,Yes,9,Yes,Yes,24.2,B-AVR,Isolated Single-Valve,Bioprosthetic,Yes,No,No,58,Yes,92,180,72,18,18,0,50,77.9,2,25,25,No,No,No,No,Isolated Single-Valve
+153,1,61,Yes,9,No,Yes,28.1,M-MVR + M-AVR,Multi-Valve,Mechanical,No,No,No,57,Yes,168,273,145,13,13,0,100,100.8,7,26,24,No,No,No,No,Complex/Combined
+154,1,37,Yes,8,No,Yes,22.3,VSD patch closure,Congenital,No Replacement,No,No,No,63,No,75,150,35,19,19,0,200,64.3,2,25,25,No,No,No,No,Other Procedures
+156,1,41,Yes,8,Yes,Yes,28.7,B-AVR,Isolated Single-Valve,Bioprosthetic,Yes,No,No,53,Yes,71,145,64,5,5,0,50,140.5,5,29,28,No,No,No,No,Isolated Single-Valve
+157,1,58,Yes,9,Yes,Yes,25.6,B-MVR,Isolated Single-Valve,Bioprosthetic,No,No,No,41,Yes,134,260,63,18.5,18.5,0,600,92.3,2,29,27,No,No,No,No,Isolated Single-Valve
+158,1,63,Yes,0,No,Yes,31.2,CABG×4+,Isolated CABG,No Replacement,No,Yes,No,56,No,164,345,NA,11,11,0,521.92,77.6,1.5,18,16,No,No,No,No,Isolated CABG
+160,1,63,No,0,No,No,27.2,MVr,Isolated Single-Valve,No Replacement,Yes,No,Yes,62,Yes,70,143,34,19.5,19.5,0,50,66.9,4,19,17,No,No,No,No,Isolated Single-Valve
+161,1,61,Yes,9,Yes,Yes,18.4,M-MVR,Isolated Single-Valve,Mechanical,No,No,No,37,Yes,105,180,66,27.5,24,46,950,88.5,7,25,18,Yes,Yes,No,Yes,Isolated Single-Valve
+162,1,59,Yes,5,No,No,21.5,MVr,Isolated Single-Valve,No Replacement,Yes,No,No,60,Yes,106,172,76,12,12,0,50,71.1,4.5,26,25,No,No,No,No,Isolated Single-Valve
+163,1,55,Yes,8,No,Yes,24.3,ASD closure (tissue graft),Congenital,No Replacement,Yes,No,No,63,No,58,135,28,1.5,1.5,0,50,58.6,1,28,27,No,No,No,No,Other Procedures
+164,1,60,Yes,8,No,No,19.5,Bentall Procedure,Isolated Aortic,No Replacement,Yes,No,No,54,Yes,140,225,106,14,14,0,50,88.6,2,25,26,No,No,No,No,Other Procedures
+165,1,55,Yes,3,No,Yes,19.5,MVr,Isolated Single-Valve,No Replacement,Yes,No,No,61,No,134,225,78,14,14,0,50,68.8,1.5,26,26,No,No,No,No,Isolated Single-Valve
+166,1,64,No,11,No,No,25.9,B-AVR,Isolated Single-Valve,Bioprosthetic,No,Yes,No,60,Yes,93,165,74,14,14,0,319.24,51.9,1.5,27,26,No,No,No,No,Isolated Single-Valve
+167,1,50,No,8,No,No,25.7,MVr,Isolated Single-Valve,No Replacement,No,No,No,63,Yes,71,145,47,6,6,0,50,41.5,2,25,24,No,No,No,No,Isolated Single-Valve
+169,1,45,Yes,11,No,No,16.8,B-PVR,Isolated Single-Valve,Bioprosthetic,No,No,No,65,Yes,114,213,70,41.5,24,0,160,41.5,3,29,29,No,No,No,No,Isolated Single-Valve
+170,1,75,No,0,No,No,20.4,B-MVR,Isolated Single-Valve,Bioprosthetic,No,No,No,57,Yes,132,250,95,11,11,0,1450,94,0.5,20,15,No,No,No,No,Isolated Single-Valve
+171,1,49,Yes,11,No,Yes,23.9,M-AVR,Isolated Single-Valve,Mechanical,No,No,No,45,No,104,215,79,15.5,15.5,0,50,85.1,4,26,26,No,No,No,No,Isolated Single-Valve
+172,1,57,Yes,8,No,No,26.4,M-MVR,Isolated Single-Valve,Mechanical,Yes,No,No,67,No,115,205,64,18,18,0,50,82.5,2,26,25,No,No,No,No,Isolated Single-Valve
+173,1,46,No,9,No,No,22.7,Thoracoscopic ASD closure+K248,Congenital,No Replacement,No,No,No,62,No,144,200,52,5,5,0,353.03,62.9,1,28,25,No,No,No,No,Other Procedures
+175,1,19,Yes,12,No,No,22.1,TVr,Isolated Single-Valve,No Replacement,No,No,No,63,No,82,220,54,5,5,0,50,84.2,3,28,26,No,No,No,No,Isolated Single-Valve
+176,1,38,No,7,No,No,23.3,ASD patch closure,Congenital,No Replacement,No,No,No,63,No,40,187,24,5.5,5.5,0,50,40.2,1,26,20,No,No,No,No,Other Procedures
+179,1,42,Yes,11,Yes,No,20.7,Open Mitral Valve Repair without Prosthesis,Isolated Single-Valve,No Replacement,No,No,No,60,No,64,190,35,13,13,0,247.78,81.1,1,29,27,No,No,No,No,Isolated Single-Valve
+180,1,44,Yes,8,Yes,Yes,25.7,M-AVR,Isolated Single-Valve,Mechanical,Yes,No,No,60,No,79,190,63,14.5,14.5,0,50,79.5,2,25,25,No,No,No,No,Isolated Single-Valve
+181,1,72,Yes,2,Yes,Yes,23,B-MVR,Isolated Single-Valve,Bioprosthetic,Yes,No,No,49,Yes,82,173,44,19,19,0,100,86.6,2,26,23,No,No,No,No,Isolated Single-Valve
+182,1,48,No,11,No,No,21.6,VSD patch closure,Congenital,No Replacement,No,No,No,63,Yes,40,130,20,5,5,0,50,56.6,2,30,29,No,No,No,No,Other Procedures
+183,1,56,No,1,No,No,30.1,M-AVR,Isolated Single-Valve,Mechanical,No,No,No,60,No,170,357,69,16,16,20,150,56.3,4,21,14,Yes,No,No,Yes,Isolated Single-Valve
+184,1,63,Yes,11,No,No,28.7,modified MORROW procedure,Other,No Replacement,No,No,No,68,No,79,205,40,12,12,0,100,59.8,1,28,26,No,No,No,No,Other Procedures
+185,1,60,No,5,No,No,28.3,MVr,Isolated Single-Valve,No Replacement,No,No,No,64,Yes,80,205,54,19,19,0,150,59.1,2,25,24,No,No,No,No,Isolated Single-Valve
+186,1,36,Yes,14,No,No,22.6,VSD patch closure,Congenital,No Replacement,No,No,No,60,No,82,212,47,46.5,24,0,410,57.6,7,29,28,No,No,No,No,Other Procedures
+187,1,61,Yes,3,Yes,Yes,26.3,CABG×4+,Isolated CABG,No Replacement,Yes,No,No,35,Yes,62,199,NA,66,24,0,480,64.4,7,23,21,No,No,No,No,Isolated CABG
+188,1,23,Yes,16,No,No,24,M-AVR,Isolated Single-Valve,Mechanical,No,No,No,55,No,151,293,125,12.5,12.5,0,150,69.6,1.5,30,30,No,No,No,No,Isolated Single-Valve
+189,1,68,Yes,6,Yes,Yes,23.5,Bentall Procedure,Isolated Aortic,No Replacement,Yes,No,No,56,Yes,136,250,104,17.5,17.5,0,100,118.6,3,21,19,No,No,No,No,Other Procedures
+190,1,49,Yes,7,Yes,Yes,26.1,MVr,Isolated Single-Valve,No Replacement,No,No,No,60,No,203,330,95,2.5,2.5,0,150,94.1,0.5,29,26,No,No,No,No,Isolated Single-Valve
+191,1,59,No,7,No,No,23.4,Atrial Lesion Excision,Other,No Replacement,No,No,No,62,Yes,69,145,40,10,10,0,50,56.6,2,25,22,No,No,No,No,Other Procedures
+192,1,69,No,3,No,No,22.5,B-AVR,Isolated Single-Valve,Bioprosthetic,No,No,No,45,Yes,151,270,117,45,24,0,1190,66.8,3,21,19,No,No,No,No,Isolated Single-Valve
+195,1,68,No,5,No,Yes,27.3,B-MVR,Isolated Single-Valve,Bioprosthetic,No,No,Yes,53,Yes,190,260,109,15,15,0,50,91.2,3.5,21,21,No,No,No,No,Isolated Single-Valve
+196,1,54,Yes,11,Yes,Yes,26,B-AVR,Isolated Single-Valve,Bioprosthetic,Yes,No,No,58,No,77,185,52,6,6,0,50,75.2,3,30,27,No,No,No,No,Isolated Single-Valve
+197,1,58,Yes,6,Yes,Yes,21.3,M-MVR,Isolated Single-Valve,Mechanical,Yes,No,No,62,No,82,170,49,11,11,0,50,155.1,2,28,24,No,No,No,No,Isolated Single-Valve
+198,1,53,Yes,8,Yes,Yes,22.8,modified MORROW procedure,Other,No Replacement,Yes,No,Yes,65,Yes,91,202,39,19,19,0,150,78.6,2,28,28,No,No,No,No,Other Procedures
+199,1,46,No,17,No,No,23.6,MVr,Isolated Single-Valve,No Replacement,Yes,No,No,65,No,84,204,48,7.5,7.5,0,50,72.3,2,30,29,No,No,No,No,Isolated Single-Valve
+200,1,40,Yes,16,No,No,21.7,David Procedure,Isolated Aortic,No Replacement,No,No,No,62,No,182,345,147,15,15,0,1100,81.7,4,30,29,No,No,No,No,Other Procedures
+201,1,42,No,5,No,No,20.5,M-MVR,Isolated Single-Valve,Mechanical,No,No,Yes,50,Yes,99,205,66,9.5,9.5,0,50,80.9,3,28,24,No,No,No,No,Isolated Single-Valve
+202,1,67,No,2,No,No,26.5,B-AVR+B-MVR+VSD patch closure,Multi-Valve,Bioprosthetic,Yes,No,No,59,Yes,136,434,88,40,24,130,2650,60.9,7.5,26,13,Yes,Yes,Yes,Yes,Complex/Combined
+203,1,52,Yes,6,No,Yes,26,M-MVR+CABG×3+,CABG + Valve,Mechanical,No,No,No,63,No,137,247,92,14,14,0,550,59.6,1.5,29,27,No,No,No,No,Complex/Combined
+204,1,47,No,6,No,No,20.9,ASD patch closure,Congenital,No Replacement,No,No,No,58,No,90,180,22,14,14,0,100,70.9,2,29,26,No,No,No,No,Other Procedures
+207,1,59,Yes,7,Yes,Yes,24.1,M-AVR,Isolated Single-Valve,Mechanical,Yes,No,No,65,Yes,92,235,75,8.5,8.5,0,345.14,136.1,3,28,24,No,No,No,No,Isolated Single-Valve
+208,1,24,Yes,16,Yes,Yes,25.7,TAPVR repair,Congenital,No Replacement,No,No,No,65,No,72,138,39,6,6,0,50,100.5,1,29,27,No,No,No,No,Other Procedures
+209,1,49,Yes,6,Yes,Yes,21.3,Bentall Procedure,Isolated Aortic,No Replacement,No,No,No,55,No,122,665,85,10.5,10.5,0,50,53.7,1.5,27,26,No,No,No,No,Other Procedures
+212,1,38,Yes,8,Yes,No,14.7,Bentall Procedure,Isolated Aortic,No Replacement,No,No,No,34,No,139,255,100,17.5,17.5,0,540,95.8,5,26,24,No,No,No,No,Other Procedures
+213,1,49,No,14,No,No,23.3,M-MVR,Isolated Single-Valve,Mechanical,No,No,No,53,No,164,330,72,20.5,20.5,0,1100,57.5,3,25,20,No,No,No,No,Isolated Single-Valve
+215,1,45,Yes,5,No,No,31.7,AVr+K222,Isolated Single-Valve,No Replacement,No,No,No,62,No,82,215,59,7,7,0,50,65,3,26,22,No,No,No,No,Isolated Single-Valve
+216,1,55,Yes,3,Yes,Yes,23.5,TVr,Isolated Single-Valve,No Replacement,Yes,No,No,62,Yes,124,370,84,10,10,0,451.45,64.7,1.5,22,20,No,No,No,No,Isolated Single-Valve
+218,1,51,Yes,5,Yes,Yes,29.8,MVr,Isolated Single-Valve,No Replacement,Yes,Yes,No,64,Yes,91,205,56,6.5,6.5,0,50,126.1,2,27,25,No,No,No,No,Isolated Single-Valve
+219,1,52,Yes,11,Yes,Yes,24.3,CABG×4+,Isolated CABG,No Replacement,No,Yes,No,39,Yes,94,237,NA,63,24,44,3600,60.7,6.5,28,15,No,Yes,Yes,Yes,Isolated CABG
+220,1,72,Yes,0,Yes,Yes,24.5,AVr+K268,Isolated Single-Valve,No Replacement,No,No,No,60,Yes,120,281,70,18,18,45,650,49.6,7,21,14,Yes,Yes,No,Yes,Isolated Single-Valve
+221,1,41,Yes,9,Yes,Yes,28.1,VSD patch closure,Congenital,No Replacement,No,No,No,63,No,53,234,31,14,14,0,150,79.9,2,29,25,No,No,No,No,Other Procedures
+222,1,57,No,8,No,No,20.3,ASD patch closure,Congenital,No Replacement,No,No,No,62,No,39,110,14,4,4,0,50,38.1,2,29,22,No,No,No,No,Other Procedures
+223,1,56,Yes,8,No,Yes,23.5,M-MVR,Isolated Single-Valve,Mechanical,No,No,No,64,No,198,310,158,16.5,16.5,0,100,68,2,28,27,No,No,No,No,Isolated Single-Valve
+224,1,56,No,0,No,No,22.2,ASD patch closure,Congenital,No Replacement,No,No,No,60,Yes,105,175,61,12,12,0,100,40.5,2,23,23,No,No,No,No,Other Procedures
+225,1,55,Yes,4,No,No,24.2,MVr,Isolated Single-Valve,No Replacement,No,No,No,66,No,133,235,92,6.5,6.5,0,50,63.4,0.5,27,26,No,No,No,No,Isolated Single-Valve
+226,1,49,Yes,13,No,Yes,30.2,modified MORROW procedure,Other,No Replacement,Yes,No,No,61,No,203,378,133,20,20,0,1500,89.1,2,30,28,No,No,No,No,Other Procedures
+227,1,42,Yes,7,No,No,26.7,M-AVR,Isolated Single-Valve,Mechanical,No,No,No,50,No,126,126,101,13.5,13.5,0,50,79.1,3,29,24,No,No,No,No,Isolated Single-Valve
+228,1,66,No,11,No,No,22.9,MVr,Isolated Single-Valve,No Replacement,No,No,No,58,Yes,97,210,64,7,7,0,341.98,51,1,29,28,No,No,No,No,Isolated Single-Valve
+229,1,59,Yes,10,No,Yes,23.9,M-MVR,Isolated Single-Valve,Mechanical,Yes,No,No,65,Yes,162,340,94,3,3,0,3150,91.5,0.5,28,26,No,No,No,No,Isolated Single-Valve
+231,1,73,Yes,12,No,Yes,26.1,Wheat Procedure,Isolated Aortic,No Replacement,Yes,Yes,No,60,No,166,290,132,15,15,0,50,61.6,2.5,25,24,No,No,No,No,Other Procedures
+232,1,62,No,6,No,No,18.6,B-MVR,Isolated Single-Valve,Bioprosthetic,No,No,No,58,No,101,250,73,18,18,0,50,54.5,2,24,22,No,No,No,No,Isolated Single-Valve
+233,1,47,Yes,5,Yes,Yes,19.4,MVr,Isolated Single-Valve,No Replacement,No,No,No,64,No,83,180,58,4,4,0,50,64.2,1,28,27,No,No,No,No,Isolated Single-Valve
+234,1,72,No,1,No,No,23.6,B-MVR,Isolated Single-Valve,Bioprosthetic,Yes,No,No,60,Yes,137,250,91,12.5,12.5,0,150,87.2,2,23,22,No,No,No,No,Isolated Single-Valve
+236,1,61,No,0,No,No,26.6,B-MVR,Isolated Single-Valve,Bioprosthetic,No,Yes,No,60,Yes,101,200,74,13,13,0,50,71.7,2,22,20,No,No,No,No,Isolated Single-Valve
+238,1,73,Yes,13,No,No,27.1,B-AVR,Isolated Single-Valve,Bioprosthetic,Yes,No,No,50,Yes,154,400,103,12.5,12.5,0,50,93.9,5.5,26,23,No,No,No,No,Isolated Single-Valve
+239,1,48,No,4,No,No,23.1,M-MVR,Isolated Single-Valve,Mechanical,No,No,No,55,Yes,145,300,103,16,16,0,1100,60.3,2.5,26,26,No,No,No,No,Isolated Single-Valve
+240,1,51,No,5,No,No,22.2,ASD patch closure,Congenital,No Replacement,Yes,No,No,64,Yes,173,250,84,11,11,0,100,68.5,1.5,25,25,No,No,No,No,Other Procedures
+241,1,48,Yes,5,Yes,Yes,27,MVr,Isolated Single-Valve,No Replacement,Yes,No,No,70,No,87,260,57,13.5,13.5,0,100,120.9,6,27,26,No,No,No,No,Isolated Single-Valve
+243,1,53,Yes,7,No,Yes,21.5,MVr,Isolated Single-Valve,No Replacement,No,No,No,63,No,107,184,82,9,9,0,50,61.8,1.5,27,25,No,No,No,No,Isolated Single-Valve
+244,1,36,No,8,No,No,46.1,M-MVR,Isolated Single-Valve,Mechanical,Yes,No,No,58,No,151,280,98,20,20,0,150,63.5,2,30,26,No,No,No,No,Isolated Single-Valve
+245,1,69,No,0,No,No,26.7,M-AVR,Isolated Single-Valve,Mechanical,Yes,Yes,No,44,No,123,352,92,12.5,12.5,0,100,94.9,3.5,20,18,No,No,No,No,Isolated Single-Valve
+246,1,35,Yes,15,Yes,Yes,23.3,Thoracoscopic ASD closure,Congenital,No Replacement,No,No,No,63,No,35,109,20,4,4,0,50,75.1,1,28,25,No,No,No,No,Other Procedures
+248,1,39,No,8,No,No,21.3,B-MVR,Isolated Single-Valve,Bioprosthetic,No,No,No,45,No,224,345,128,11,11,0,50,76.5,2.5,29,26,No,No,No,No,Isolated Single-Valve
+249,1,72,No,0,No,No,21.8,B-AVR,Isolated Single-Valve,Bioprosthetic,No,No,No,55,Yes,113,211,84,11,11,0,50,69.2,1.5,26,24,No,No,No,No,Isolated Single-Valve
+250,1,58,Yes,9,Yes,No,27,MVr,Isolated Single-Valve,No Replacement,Yes,No,No,63,No,80,170,49,12.5,12.5,0,150,106.5,2,27,26,No,No,No,No,Isolated Single-Valve
+251,1,64,Yes,6,Yes,Yes,22.7,MVr,Isolated Single-Valve,No Replacement,No,No,No,64,Yes,243,366,158,85.5,24,277,595,87.2,14,28,18,Yes,Yes,Yes,Yes,Isolated Single-Valve
+252,1,48,Yes,11,Yes,Yes,30.8,CABG×4+,Isolated CABG,No Replacement,Yes,No,No,60,No,191,370,135,44,44,0,2650,80.6,4,28,24,No,No,No,No,Isolated CABG
+253,1,53,No,1,No,No,25.8,TVr,Isolated Single-Valve,No Replacement,No,Yes,No,58,No,79,274,NA,14,14,0,100,63.5,2.5,25,25,No,No,No,No,Isolated Single-Valve
+254,1,41,Yes,8,No,Yes,29.7,B-AVR,Isolated Single-Valve,Bioprosthetic,Yes,No,No,60,No,109,210,91,10,10,0,50,81.6,1,26,26,No,No,No,No,Isolated Single-Valve
+255,1,26,No,14,No,No,18.8,ASD closure (tissue graft),Congenital,No Replacement,No,No,No,62,No,42,165,NA,3.5,3.5,0,176.27,56.4,2,28,26,No,No,No,No,Other Procedures
+256,1,67,Yes,9,Yes,Yes,26.6,CABG×4+,Isolated CABG,No Replacement,Yes,No,No,55,No,128,379,NA,16.5,16.5,0,50,88,4,29,25,No,No,No,No,Isolated CABG
+258,1,66,Yes,7,Yes,No,24.7,Wheat Procedure,Isolated Aortic,No Replacement,No,No,No,67,No,180,350,150,40.5,24,0,250,82.8,4,27,25,No,No,No,No,Other Procedures
+259,1,57,Yes,8,Yes,Yes,22.5,B-AVR,Isolated Single-Valve,Bioprosthetic,Yes,No,No,61,No,133,320,114,13.5,13.5,0,50,81.8,5.5,26,20,No,No,No,No,Isolated Single-Valve
+260,1,59,No,5,No,No,21.9,modified MORROW procedure,Other,No Replacement,Yes,No,No,65,No,73,180,49,14,14,0,100,66.4,2,24,22,No,No,No,No,Other Procedures
+261,1,63,No,7,No,No,27,LVOT deobstruction,Other,No Replacement,Yes,No,No,58,Yes,79,174,41,14,14,0,100,78.6,3,25,25,No,No,No,No,Other Procedures
+262,1,50,No,7,No,No,21.8,Bentall Procedure,Isolated Aortic,No Replacement,Yes,No,No,52,Yes,147,270,122,17.5,17.5,0,150,52.1,2,25,24,No,No,No,No,Other Procedures
+265,1,27,Yes,9,Yes,No,30.9,M-AVR,Isolated Single-Valve,Mechanical,No,No,No,66,No,104,200,87,6,6,0,50,63.6,2,26,25,No,No,No,No,Isolated Single-Valve
+266,1,31,Yes,12,Yes,No,23.7,Avr,Isolated Single-Valve,No Replacement,No,No,No,56,No,175,340,115,13,13,0,50,56.8,2,27,26,No,No,No,No,Isolated Single-Valve
+270,1,53,Yes,8,Yes,No,22,B-MVR,Isolated Single-Valve,Bioprosthetic,No,No,Yes,62,Yes,175,325,114,11.5,11.5,0,50,90.9,1.5,27,25,No,No,No,No,Isolated Single-Valve
+271,1,65,No,6,No,No,22.3,B-MVR,Isolated Single-Valve,Bioprosthetic,No,No,No,60,No,120,232,88,48,24,0,650,84.2,4,23,15,No,No,No,No,Isolated Single-Valve
+272,1,67,Yes,10,Yes,Yes,23.2,MVr,Isolated Single-Valve,No Replacement,Yes,No,No,60,Yes,142,344,100,19,19,0,100,63.3,2,27,18,No,No,No,No,Isolated Single-Valve
+273,1,34,No,5,No,No,17.5,M-MVR,Isolated Single-Valve,Mechanical,No,No,No,42,Yes,179,360,125,14,14,0,446.7,72.6,4.5,29,28,No,No,No,No,Isolated Single-Valve
+274,1,71,No,0,No,No,23.4,MVr,Isolated Single-Valve,No Replacement,No,No,No,64,Yes,195,360,118,12,12,0,50,61.7,3.5,18,15,No,No,No,No,Isolated Single-Valve
+276,1,29,No,12,No,No,25.6,M-PVR,Isolated Single-Valve,Mechanical,Yes,Yes,No,61,No,60,174,18,10,10,0,550,63.3,1.5,29,26,No,No,No,No,Isolated Single-Valve
+278,1,53,No,5,No,No,25.8,ECD repair/AVSD repair,Congenital,No Replacement,No,No,No,54,Yes,99,180,57,66.5,24,0,1500,48.7,8,28,26,No,No,No,No,Other Procedures
+279,2,59,Yes,9,Yes,Yes,21.48,CABG + MVR,CABG + Valve,No Replacement,Yes,No,No,52,Yes,246,480,190,66,24,0,600,95,7,27,24,No,No,No,No,Complex/Combined
+280,2,57,Yes,5,No,No,20.76,MVR + TVr,Multi-Valve,No Replacement,No,No,No,53,No,112,230,80,21,21,0,200,74,3,27,23,No,No,No,No,Complex/Combined
+281,2,50,Yes,10,Yes,Yes,33.41,CABG,Isolated CABG,No Replacement,Yes,No,No,47,NA,149,425,107,127,24,117,1250,78,11.5,30,12,Yes,Yes,Yes,Yes,Isolated CABG
+282,2,55,Yes,9,Yes,No,22.09,CABG,Isolated CABG,No Replacement,No,No,No,54,NA,133,310,132,20,20,0,200,179,4,28,24,No,No,No,No,Isolated CABG
+283,2,49,Yes,7,No,No,22.32,MVR + TVr,Multi-Valve,No Replacement,No,No,No,61,No,125,335,72,20,20,0,450,145,4,28,26,No,No,No,No,Complex/Combined
+284,2,58,Yes,0,No,Yes,27.92,AVR,Isolated Single-Valve,No Replacement,Yes,No,No,65,No,101,210,75,10,10,0,250,87,3,26,23,No,No,No,No,Isolated Single-Valve
+285,2,64,Yes,9,Yes,Yes,25.86,MVR,Isolated Single-Valve,No Replacement,No,Yes,No,67,No,95,220,58,17.5,17.5,0,200,82,3,27,24,No,No,No,No,Isolated Single-Valve
+286,2,51,Yes,4,Yes,Yes,24.6,MVR,Isolated Single-Valve,No Replacement,No,No,No,60,No,119,235,89,44,24,0,350,54,6,21,18,No,No,No,No,Isolated Single-Valve
+287,2,35,Yes,8,Yes,Yes,24.6,MVR + TVr + RF ablation,Multi-Valve,No Replacement,No,No,No,62,No,113,240,83,20,20,0,150,59,6,28,28,No,No,No,No,Complex/Combined
+288,2,62,Yes,7,Yes,Yes,22.7,CABG,Isolated CABG,No Replacement,No,No,No,37,No,157,355,118,19.5,19.5,0,100,103,10,27,23,No,No,No,No,Isolated CABG
+290,2,60,No,9,No,No,19.6,TVR,Isolated Single-Valve,No Replacement,Yes,No,No,62,No,117,265,66,19,19,0,60,50,5,30,25,No,No,No,No,Isolated Single-Valve
+291,2,47,No,8,No,No,32.3,CABG,Isolated CABG,No Replacement,Yes,Yes,Yes,43,No,99,290,72,20,20,0,180,74,4,27,21,No,No,No,No,Isolated CABG
+292,2,46,Yes,6,No,No,30.9,CABG + IABP,Isolated CABG,No Replacement,No,No,No,62,No,176,330,128,28,24,0,360,38,4,26,21,No,No,No,No,Isolated CABG
+293,2,70,Yes,12,Yes,Yes,27.2,CABG + B-AVR,CABG + Valve,Bioprosthetic,No,Yes,Yes,56,No,205,420,158,17.5,17.5,96,120,87,6.5,27,17,Yes,Yes,Yes,Yes,Complex/Combined
+294,2,70,Yes,5,Yes,Yes,27.3,CABG + B-AVR,CABG + Valve,Bioprosthetic,No,No,No,49,Yes,164,330,112,22,22,0,180,69,4,24,24,No,No,No,No,Complex/Combined
+296,2,70,Yes,6,Yes,Yes,25.1,CABG,Isolated CABG,No Replacement,No,Yes,No,48,Yes,81,230,51,16,16,0,180,74,4,27,19,No,No,No,No,Isolated CABG
+297,2,36,Yes,1,No,No,22.9,TOF repair + TVr,Congenital,No Replacement,No,No,Yes,63,No,148,350,96,42.5,24,0,480,68,7,27,24,No,No,No,No,Other Procedures
+298,2,57,Yes,9,Yes,No,27,CABG,Isolated CABG,No Replacement,Yes,No,No,60,Yes,197,300,138,19.5,19.5,0,120,77,5,27,26,No,No,No,No,Isolated CABG
+303,2,58,No,5,No,No,19.5,Cardiac Tumor Resection,Other,No Replacement,No,No,No,60,Yes,56,170,27,21.5,21.5,0,160,41,3,24,21,No,No,No,No,Other Procedures
+304,2,75,No,12,No,No,24.3,AoR + MVR + ext. Ao Root,Multi-Valve,No Replacement,Yes,Yes,No,48,Yes,231,365,176,19,19,0,120,90,9,26,22,No,No,No,No,Complex/Combined
+306,2,70,Yes,5,Yes,Yes,33.9,CABG,Isolated CABG,No Replacement,Yes,No,No,53,NA,162,350,121,24,24,144,120,97,6,21,15,Yes,Yes,Yes,Yes,Isolated CABG
+309,2,72,Yes,4,Yes,Yes,26,MVR+TVr+CABG,Multi-Valve,No Replacement,Yes,No,Yes,58,Yes,144,320,89,30.5,24,0,260,175,7,26,18,No,No,No,No,Complex/Combined
+310,2,67,Yes,6,Yes,Yes,25.4,MVR+AVR+TVr+CABG,Multi-Valve,No Replacement,Yes,No,Yes,58,Yes,206,385,161,20,20,0,320,103,5,25,25,No,No,No,No,Complex/Combined
+311,2,66,Yes,5,Yes,No,25.3,CABG,Isolated CABG,No Replacement,No,No,No,45,Yes,202,375,158,14,14,0,180,69,5.5,24,24,No,No,No,No,Isolated CABG
+312,2,61,Yes,9,No,No,20.8,CABG +MVR+ IABP,CABG + Valve,No Replacement,Yes,No,No,40,No,175,450,127,18.5,18.5,0,180,72,8,28,27,No,No,No,No,Complex/Combined
+313,2,67,No,5,No,No,19.2,CABG,Isolated CABG,No Replacement,Yes,No,No,44,Yes,121,310,83,31,31,25,60,44,5,25,15,Yes,No,No,Yes,Isolated CABG
+314,2,63,No,1,No,No,21.5,CABG + CEAo,Isolated CABG,No Replacement,Yes,Yes,Yes,53,Yes,93,290,69,19,19,0,120,55,4,24,18,No,No,No,No,Isolated CABG
+316,2,53,Yes,8,Yes,Yes,22.8,CABG + CEAo,Isolated CABG,No Replacement,Yes,Yes,No,47,NA,146,325,110,21,21,0,60,123,6,30,24,No,No,No,No,Isolated CABG
+317,2,59,Yes,11,No,Yes,25.5,AVR+TVr,Multi-Valve,No Replacement,No,No,No,53,No,123,270,86,45,24,0,640,83,7,29,29,No,No,No,No,Complex/Combined
+318,2,56,No,2,No,No,26.7,MVR+ CABG,CABG + Valve,No Replacement,No,No,No,55,Yes,181,390,131,18.5,18.5,0,140,77,4,25,19,No,No,No,No,Complex/Combined
+319,2,51,Yes,6,Yes,Yes,23.1,CABG + CEAo + CEA + IABP,Isolated CABG,No Replacement,Yes,Yes,No,55,No,144,460,96,13,13,0,120,68,6,23,17,No,No,No,No,Isolated CABG
+320,2,55,No,6,No,No,26.6,Atrial Tumor Resection + Atrial Repair,Other,No Replacement,No,No,No,58,No,81,200,60,22,22,0,120,72,3,24,20,No,No,No,No,Other Procedures
+321,2,65,No,10,No,No,23.5,CABG,Isolated CABG,No Replacement,Yes,No,No,65,No,121,325,92,19.5,19.5,0,180,77,4,28,27,No,No,No,No,Isolated CABG
+322,2,79,Yes,4,Yes,Yes,23.44,AVR+CABG,CABG + Valve,No Replacement,Yes,Yes,No,61,Yes,153,335,118,19,19,56,150,77,6,22,16,No,Yes,Yes,Yes,Complex/Combined
+324,2,73,Yes,11,Yes,Yes,25.8,CABG,Isolated CABG,No Replacement,No,Yes,Yes,57,Yes,134,335,102,14.5,14.5,0,100,93,4,27,27,No,No,No,No,Isolated CABG
+325,2,57,Yes,8,Yes,Yes,25.39,CABG,Isolated CABG,No Replacement,No,No,No,60,NA,141,380,100,12,12,0,50,82,4.5,26,25,No,No,No,No,Isolated CABG
+326,2,71,Yes,6,No,No,24.8,CABG,Isolated CABG,No Replacement,No,No,No,58,No,108,280,87,20,20,0,150,73,3,28,28,No,No,No,No,Isolated CABG
+327,2,64,No,0,No,No,27.01,AVR+CABG,CABG + Valve,No Replacement,Yes,Yes,No,55,NA,164,280,126,19.5,19.5,0,100,75,3,18,18,No,No,No,No,Complex/Combined
+328,2,33,No,4,No,No,22.22,Atrial Septal Defect (ASD) Repair (Patch Closure)/ASD closure + TVr,Congenital,No Replacement,No,No,No,62,NA,66,195,44,21,21,0,200,52,3,29,29,No,No,No,No,Other Procedures
+330,2,66,Yes,7,Yes,Yes,25.95,AVR+MVR,Multi-Valve,No Replacement,No,No,No,53,No,176,295,140,13,13,0,120,103,4.5,26,25,No,No,No,No,Complex/Combined
+331,2,42,Yes,9,Yes,Yes,34.94,CABG,Isolated CABG,No Replacement,Yes,No,No,61,No,178,405,133,18,18,0,150,102,3,25,28,No,No,No,No,Isolated CABG
+332,2,70,No,0,No,No,19.98,AVR+CABG,CABG + Valve,No Replacement,Yes,No,No,66,Yes,129,270,105,43,24,59,300,70,7,21,13,No,Yes,Yes,Yes,Complex/Combined
+333,2,69,Yes,8,Yes,No,20.76,CABG,Isolated CABG,No Replacement,Yes,No,No,54,Yes,157,340,96,19,19,0,150,107,6,27,25,No,No,No,No,Isolated CABG
+334,2,57,No,3,No,No,21.48,ASD closure + TVr,Congenital,No Replacement,No,No,No,74,NA,131,230,99,14,14,0,50,64,3,24,24,No,No,No,No,Other Procedures
+335,2,57,No,3,No,No,26.57,MVR+TVr,Multi-Valve,No Replacement,Yes,No,No,66,No,143,298,90,19,19,0,100,70,3,22,18,No,No,No,No,Complex/Combined
+336,2,71,Yes,6,Yes,No,21.97,MVR+ CABG,CABG + Valve,No Replacement,No,No,Yes,52,Yes,264,475,218,15.5,15.5,0,50,84,7,26,25,No,No,No,No,Complex/Combined
+340,2,59,Yes,9,Yes,Yes,25.95,CABG,Isolated CABG,No Replacement,Yes,No,No,33,NA,121,220,81,18,18,0,150,97,6,26,22,No,No,No,No,Isolated CABG
+342,2,61,No,5,No,No,23.23,CABG,Isolated CABG,No Replacement,Yes,Yes,No,61,Yes,108,340,79,15,15,0,50,66,5,22,18,No,No,No,No,Isolated CABG
+343,2,60,Yes,7,Yes,Yes,16.53,MVR+TVr,Multi-Valve,No Replacement,Yes,No,No,71,NA,103,235,66,14,14,0,50,80,5.5,26,24,No,No,No,No,Complex/Combined
+344,2,69,Yes,7,Yes,Yes,22.49,CABG,Isolated CABG,No Replacement,Yes,No,No,64,NA,133,450,105,20.5,20.5,0,200,82,3,28,26,No,No,No,No,Isolated CABG
+345,2,69,Yes,0,Yes,No,20.81,CABG,Isolated CABG,No Replacement,No,No,No,69,NA,137,290,104,14,14,56,100,66,6.5,26,13,No,No,Yes,Yes,Isolated CABG
+349,2,64,Yes,7,Yes,Yes,20.76,AVR,Isolated Single-Valve,No Replacement,Yes,No,No,62,NA,114,340,77,18,18,0,180,69,5,26,27,No,No,No,No,Isolated Single-Valve
+350,2,46,Yes,11,No,No,24.22,CABG,Isolated CABG,No Replacement,No,No,No,56,No,123,300,95,19.5,19.5,0,280,79,3,27,29,No,No,No,No,Isolated CABG
+351,2,67,No,11,No,No,21.09,CABG,Isolated CABG,No Replacement,No,No,No,53,Yes,147,345,102,50.5,24,0,460,60,9,30,25,No,No,No,No,Isolated CABG
+352,2,61,Yes,3,No,No,21.62,MVR+AVR + CABG+ TVr + LAA ligation,Multi-Valve,No Replacement,No,No,No,54,Yes,206,420,161,18.5,18.5,0,50,86,3,23,21,No,No,No,No,Complex/Combined
+353,2,74,No,9,No,No,25.95,CABG,Isolated CABG,No Replacement,Yes,Yes,Yes,58,Yes,90,290,56,20,20,0,350,69,5,26,26,No,No,No,No,Isolated CABG
+354,2,54,Yes,6,Yes,No,23.43,CABG,Isolated CABG,No Replacement,No,No,No,63,Yes,113,320,81,20,20,0,260,59,3,25,23,No,No,No,No,Isolated CABG
+355,2,68,Yes,4,Yes,No,23.43,CABG,Isolated CABG,No Replacement,No,No,No,50,Yes,159,350,121,14.5,14.5,46,100,80,6,22,13,No,Yes,Yes,Yes,Isolated CABG
+356,2,73,Yes,4,Yes,No,29.74,CABG,Isolated CABG,No Replacement,Yes,No,No,59,Yes,124,270,90,20.5,20.5,0,80,117,5,23,20,No,No,No,No,Isolated CABG
+357,2,58,No,6,No,No,24.21,CABG,Isolated CABG,No Replacement,Yes,No,No,53,Yes,190,380,116,17,17,0,200,59,7,22,20,No,No,No,No,Isolated CABG
+360,2,55,Yes,6,No,No,28.39,CABG,Isolated CABG,No Replacement,Yes,No,No,39,No,152,310,110,89,24,0,1080,90,11.5,23,21,No,No,No,No,Isolated CABG
+361,2,60,Yes,3,Yes,No,27.42,CABG,Isolated CABG,No Replacement,Yes,Yes,No,38,NA,115,310,87,18.5,18.5,0,120,92,3,26,23,No,No,No,No,Isolated CABG
+362,2,56,Yes,8,No,Yes,24.22,CABG,Isolated CABG,No Replacement,Yes,Yes,No,54,Yes,122,280,84,20,20,0,240,85,3,27,20,No,No,No,No,Isolated CABG
+365,2,40,Yes,10,No,No,24.8,CABG,Isolated CABG,No Replacement,Yes,No,No,46,NA,202,400,154,25,25,0,120,77,4,30,26,No,No,No,No,Isolated CABG
+366,2,63,No,5,No,No,23.43,MVR + TVr + atrial thrombectomy,Multi-Valve,No Replacement,No,No,No,65,NA,147,280,114,66,24,0,540,60,6,22,19,No,No,No,No,Complex/Combined
+367,2,67,No,3,No,No,25.39,MVR+TVr+CABG,Multi-Valve,No Replacement,No,No,No,56,NA,151,290,111,19.5,19.5,0,60,63,3,21,20,No,No,No,No,Complex/Combined
+368,2,67,Yes,6,Yes,No,25.35,CABG,Isolated CABG,No Replacement,Yes,Yes,No,55,Yes,113,320,77,17.5,17.5,0,60,86,3,22,19,No,No,No,No,Isolated CABG
+369,2,62,Yes,6,No,No,25.78,MVR+AVR + CABG+ TVr,Multi-Valve,No Replacement,Yes,No,Yes,51,Yes,182,330,135,20,20,0,200,63,4,21,20,No,No,No,No,Complex/Combined
+370,2,73,Yes,0,Yes,Yes,26.34,AVR + CABG + TVr + Maze (RF),Multi-Valve,No Replacement,Yes,No,No,52,Yes,217,360,172,11.5,11.5,0,330.6,88,4.5,19,17,No,No,No,No,Complex/Combined
+371,2,73,No,6,No,No,26.43,MVR + TVr,Multi-Valve,No Replacement,No,No,No,62,Yes,85,190,61,21,21,0,180,44,4,22,20,No,No,No,No,Complex/Combined
+375,2,70,No,6,No,No,25.68,Ao-Coronary bypass,Isolated CABG,No Replacement,No,Yes,No,55,Yes,111,280,78,20.5,20.5,0,110,71,4,22,20,No,No,No,No,Isolated CABG
+378,2,18,Yes,11,No,No,17.39,M-MVR,Isolated Single-Valve,Mechanical,No,No,No,60,NA,86,320,55,19.5,19.5,0,44.09,70,5,30,28,No,No,No,No,Isolated Single-Valve
+379,2,60,No,6,No,No,24.83,CABG + CEAo,Isolated CABG,No Replacement,No,Yes,No,61,Yes,111,205,85,12.5,12.5,0,90,63,3,22,17,No,No,No,No,Isolated CABG
+380,2,65,Yes,5,Yes,Yes,19.95,CABG + AVR + IABP,CABG + Valve,No Replacement,Yes,Yes,No,35,Yes,236,410,164,12,12,0,180,81,9,21,18,No,No,No,No,Complex/Combined
+381,2,72,No,3,No,No,27.34,MVR + TVr + atrial thrombectomy + RF ablation,Multi-Valve,No Replacement,No,No,No,58,Yes,140,290,116,18,18,0,50,58,3,22,20,No,No,No,No,Complex/Combined
+382,2,73,Yes,3,Yes,Yes,20.86,B-AVR,Isolated Single-Valve,Bioprosthetic,No,Yes,No,55,Yes,84,220,55,21,21,0,50,140,4,22,18,No,No,No,No,Isolated Single-Valve
+383,2,67,Yes,6,Yes,No,21.51,CABG + CEAo+IABP,Isolated CABG,No Replacement,Yes,No,Yes,52,NA,109,240,75,21,21,0,100,99,9,22,20,No,No,No,No,Isolated CABG
+384,2,75,No,6,No,No,24.23,CABG,Isolated CABG,No Replacement,No,Yes,No,53,Yes,105,280,78,19.5,19.5,0,80,46,5,23,21,No,No,No,No,Isolated CABG
